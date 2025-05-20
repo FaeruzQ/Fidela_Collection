@@ -1,0 +1,35 @@
+.background {
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+   background: #EEAECA;
+   background: radial-gradient(circle,rgba(238, 174, 202, 1) 0%, rgba(148, 187, 233, 1) 100%);
+    overflow: hidden;
+}
+
+
+body { 
+    margin : 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+}
+
+.box{
+    display: flex;  /* Aktifkan Flexbox */
+    justify-content: center; /* Pusatkan secara horizontal */
+    align-items: center; /* Pusatkan secara vertikal */
+    background:white;
+    width:30vw;
+    height: 30vh;
+    margin: auto;
+    position: relative;
+    margin-top: 30vh;
+    box-shadow: 0 0.28vw 2.1vw rgba(0, 0, 0, 0.2); /* Shadow dengan arah horizontal */
+    border-radius: 15px;  
+}
